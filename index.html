@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Base Binária</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Conversor de Base Binária</h1>
+        <p class="descricao">Converta números entre as bases binária e decimal.</p>
+
+        <section class="calculadora">
+            <div class="campo">
+                <label for="binario">Número binário</label>
+                <input type="text" id="binario" placeholder="Ex.: 101101" autocomplete="off">
+            </div>
+
+            <div class="campo">
+                <label for="decimal">Número decimal</label>
+                <input type="text" id="decimal" placeholder="Ex.: 45" autocomplete="off">
+            </div>
+
+            <div class="botoes">
+                <button id="btnBinarioDecimal" type="button">Binário → Decimal</button>
+                <button id="btnDecimalBinario" type="button">Decimal → Binário</button>
+                <button id="btnLimpar" class="secundario" type="button">Limpar</button>
+            </div>
+
+            <div id="mensagem" class="mensagem" role="status"></div>
+        </section>
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+</html>
